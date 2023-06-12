@@ -1,12 +1,18 @@
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Home from "./pages/Home";
+import { PageProvider } from "./PageProvider";
+import Header from "./components/Header";
 
+export default function App() {
 
-
-function App() {
   return (
-    <div >
-      <p className="fw-bold">Hello, world!</p>
-    </div>
+    <PageProvider>
+      <Header />
+      <Home />
+      <About />
+      <Contact />
+    </PageProvider>
   );
 }
 
-export default App;
