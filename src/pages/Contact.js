@@ -1,9 +1,9 @@
-import {useContext} from "react"
+import { useContext } from "react"
 import { PageContext } from "../PageProvider"
 const Contact = () => {
     console.log("Contact")
-    const {page} = useContext(PageContext)
-    if(page !== "contact"){
+    const { page } = useContext(PageContext)
+    if (page !== "contact") {
         return (<>{""}</>)
     }
     return (

@@ -1,0 +1,45 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+header {
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: auto;
+}
+
+
+.github-icon {
+    margin-right: 20px;
+    width: 50px;
+    height: auto;
+
+}
+
+.linkedin-icon {
+    margin-right: 20px;
+    padding-top: 5px;
+    width: 50px;
+    height: auto;
+}
+
+.twitter-icon {
+    padding-top: 5px;
+    width: 50px;
+    height: auto;
+}
+
+.btn {
+    font-size: 20px;
+    transition: all 0.4s ease;
+}
+
+.btn:hover {
+    color: #d9dcd6;
+    background-color: #81c3d7;
+}
