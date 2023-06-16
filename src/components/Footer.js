@@ -6,10 +6,13 @@ import twitter from '../images/twitter.png';
 const Footer = () => {
     return (<>
         <footer className='d-flex justify-content-center' >
-            <ul className='d-flex list-unstyled'>
-                <li><a href='https://github.com/jmfarthin' target="_blank" rel="noopener noreferrer"><img className='github-icon' src={githubLogo} alt='github icon' ></img></a></li>
-                <li><a href='https://www.linkedin.com/in/justin-farthing/' target="_blank" rel="noopener noreferrer"><img src={linkedIn} className='linkedin-icon' alt='linkedIn icon'></img></a></li>
-                <li><a href='https://twitter.com/jmfarthin' target="_blank" rel="noopener noreferrer"><img src={twitter} className='twitter-icon' alt='twitter icon'></img></a></li>
+            <ul className='row list-unstyled footer-ul'>
+                <li className='col' ><a href='https://github.com/jmfarthin' target="_blank" rel="noopener noreferrer" title='GitHub'>
+                    <img className='github-icon' src={githubLogo} alt='github icon' ></img></a></li>
+                <li className='col'><a href='https://www.linkedin.com/in/justin-farthing/' target="_blank" rel="noopener noreferrer" title='linkedIn'>
+                    <img src={linkedIn} className='linkedin-icon' alt='linkedIn icon'></img></a></li>
+                <li className='col'><a href='https://twitter.com/jmfarthin' target="_blank" rel="noopener noreferrer" title='Twitter'>
+                    <img src={twitter} className='twitter-icon' alt='twitter icon'></img></a></li>
             </ul>
         </footer>
     </>

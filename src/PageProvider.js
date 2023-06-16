@@ -6,10 +6,10 @@ export const PageContext = createContext();
 // Create a provider component
 export const PageProvider = ({ children }) => {
   const [page, setPage] = useState('home');
-    console.log("PROVIDER REFRESHED!")
+  console.log("PROVIDER REFRESHED!")
   // Function to update the page state
   const changePage = (newPage) => {
-    if(page === newPage) return
+    if (page === newPage) return
     setPage(newPage);
   };
 

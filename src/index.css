@@ -1,4 +1,4 @@
-body {
+.main {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -11,18 +11,25 @@ header {
 
 footer {
     margin-top: auto;
+    
+}
+
+.footer-ul {
+    padding: 10px 60px 10px 60px;
+    border: solid 2px #f1a13b;
+    border-radius: 15px;
 }
 
 
 .github-icon {
-    margin-right: 20px;
+    /* margin-right: 20px; */
     width: 50px;
     height: auto;
 
 }
 
 .linkedin-icon {
-    margin-right: 20px;
+    /* margin-right: 20px; */
     padding-top: 5px;
     width: 50px;
     height: auto;
@@ -37,9 +44,59 @@ footer {
 .btn {
     font-size: 20px;
     transition: all 0.4s ease;
+    padding: 10px;
 }
 
 .btn:hover {
-    color: #d9dcd6;
-    background-color: #81c3d7;
+    color: #fbd1a2;
+    background-color: #f1a13b;
+}
+
+.btn:active {
+    box-shadow: 10px 10px 11px -4px rgba(0, 0, 0, 0.75);
+}
+
+.home {
+    color: white;
+    background-color: #f1a13b;
+    border-radius: 15px;
+}
+
+.headshot {
+    height: 45vh;
+    border-radius: 40% 10%;
+}
+
+.about-page {
+    color: #f4f1de;
+    background-color: #f1a13b;
+    padding: 80px;
+    border-radius: 15px;
+}
+
+.about-me {
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.card {
+    border: none;
+    background-color: #eef1ef;
+    box-shadow: 10px 10px 11px -4px rgba(0, 0, 0, 0.75);
+}
+
+.yellowbg {
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #f1a13b;
+}
+
+.link-border {
+    border: solid 2px #f1a13b;
+    border-radius: 15px;
+}
+
+.btn-submit:hover {
+color: #eef1ef;
+background-color: #023e7d;
 }
