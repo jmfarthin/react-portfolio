@@ -26,14 +26,17 @@ const Resume = () => {
     <div className='mt-5'>
       <h1 className='yellowbg'>Resume</h1>
       <div className='bluebg p-4'>
-      <button className='btn btn-resume' onClick={handleDownloadResume}>Download Resume</button>
-      <h2 className='pt-3'>Proficiencies</h2>
-      <ul>
-        <li>Proficiency 1</li>
-        <li>Proficiency 2</li>
-        <li>Proficiency 3</li>
-        {/* Add more proficiency items as needed */}
-      </ul>
+        <button className='btn btn-resume' onClick={handleDownloadResume}>Download Resume</button>
+        <h2 className='pt-3'>Proficiencies</h2>
+        <ul>
+          <li>Javascript</li>
+          <li>Node</li>
+          <li>Express</li>
+          <li>Handlebars</li>
+          <li>MySQL</li>
+          <li>Sequelize</li>
+          {/* Add more proficiency items as needed */}
+        </ul>
       </div>
     </div>
   );
