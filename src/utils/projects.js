@@ -2,6 +2,7 @@ import feastfindr from "../images/FeastFindr1.png"
 import iron from "../images/emergency-iron.png"
 import notetaker from "../images/notetaker.png"
 import weather from "../images/weather.png"
+import interviewbuddy from "../images/interviewbuddy.png"
 
 
 const projectData = [
@@ -29,6 +30,13 @@ const projectData = [
         "github": "https://github.com/jmfarthin/weather-dashboard",
         "website": "https://jmfarthin.github.io/weather-dashboard/"
     },
+    {
+        "title": "Interview Buddy",
+        "screenshot": interviewbuddy,
+        "github": "https://github.com/jmfarthin/interview_buddy",
+        "website": "https://mighty-oasis-76302-8c0bb6653a60.herokuapp.com/"
+    },
+
 
 ];
 
