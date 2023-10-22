@@ -9,12 +9,12 @@ const Resume = () => {
   }
 
   const handleDownloadResume = () => {
-    const resumeUrl = process.env.PUBLIC_URL + '/farthing-portfolio-resume.docx'; // Update with the actual file path and name
+    const resumeUrl = process.env.PUBLIC_URL + '/Justin Farthing Dev Resume (3).docx'; // Update with the actual file path and name
 
     // link element
     const link = document.createElement('a');
     link.href = resumeUrl;
-    link.download = 'farthing-portfolio-resume.docx'; // Specify the desired file name
+    link.download = 'Justin Farthing Dev Resume (3).docx'; // Specify the desired file name
 
     // trigger the download
     document.body.appendChild(link);
